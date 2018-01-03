@@ -6,3 +6,4 @@
 node_modules
 *.css.map
 npm-debug.log
+src/css/main.css

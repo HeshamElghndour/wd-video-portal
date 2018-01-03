@@ -1,7 +1,23 @@
-@import 'abstracts/*';
-@import 'vendors/*';
-@import 'base/*';
-@import 'layout/*';
-@import 'components/*';
-@import 'pages/*';
-@import 'themes/*';
+@import
+'abstracts/variables',
+'abstracts/functions',
+'abstracts/mixins',
+'abstracts/placeholders';
+
+@import
+'base/reset',
+'base/typography';
+
+@import
+'layout/nav',
+'layout/grid',
+'layout/header';
+
+@import
+'components/buttons';
+
+@import
+'pages/home';
+
+@import
+'themes/theme';
