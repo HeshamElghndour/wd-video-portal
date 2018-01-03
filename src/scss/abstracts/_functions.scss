@@ -5,4 +5,9 @@
   // Again, we can make a helper function:
 @function line-height($level) {
     @return map-get($line-heights, $level);
-  }
+}
+
+@function wd-color($key) {
+	@return map-get($wd-colors, $key);
+}
+  

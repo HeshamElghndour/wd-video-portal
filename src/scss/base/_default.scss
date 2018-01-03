@@ -1,0 +1,13 @@
+:root{
+    font-family: 'DINWebPro', sans-serif;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    color: wd-color('white');
+}
+body{
+    background-color: wd-color('black');
+}
+
+.hide{
+    display: none;
+}

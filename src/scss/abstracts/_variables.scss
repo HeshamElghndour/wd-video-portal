@@ -7,3 +7,15 @@ $line-heights: (
   1: $base-line-height * 2,
   2: $base-line-height * 2
 );
+
+$wd-colors: (
+  'dark-blue': #000F23,
+  'light-blue': #3295D2,
+  'red': #FF2014,
+  'white': #fff,
+  'black': #000,
+
+);
+
+// gaps
+$nav-padding: 20px 0;
