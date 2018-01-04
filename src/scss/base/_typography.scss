@@ -35,7 +35,9 @@ h1 {
 }
 
 // The smaller top heading
-// h2 { @include type-setting(1); }
+h2 { @include type-setting(3); }
+h3 { @include type-setting(2); }
+h3 { @include type-setting(1); }
 
 p { 
   font-family: 'DINWebPro-Light', sans-serif;  

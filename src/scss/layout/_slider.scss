@@ -1,0 +1,11 @@
+.card-video {
+  position: relative;
+  width: 370px;
+  overflow: hidden;
+  
+  .card-footer {
+    position: absolute;
+    bottom: 0;
+    padding: $card-footer-padding;
+  }
+}

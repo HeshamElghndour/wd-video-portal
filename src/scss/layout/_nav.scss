@@ -8,7 +8,25 @@ nav {
         align-items: center;
     }
 
-    .btn-logo{
+    .input-search {
+
+        input[type="text"] {
+            font-family: 'DINWebPro-light', sans-serif;
+            width: 150px;
+            background: transparent;
+            color: wd-color('white');
+            @include type-setting(1);
+            border: none;
+            border-bottom: 1px solid #fff;
+            margin: 0px 0 0 10px;
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    .btn-logo {
         padding-left: 12px;
         margin-left: 12px;
         border: none;
