@@ -1,30 +1,44 @@
 // import fonts
-@include font-face(DINWebPro, '../src/fonts/DINWebPro');
-@include font-face(DINWebPro-Bold, '../src/fonts/DINWebPro-Bold');
-@include font-face(DINWebPro-Ita, '../src/fonts/DINWebPro-Ita');
+@include font-face(DINWebPro, '../fonts/DINWebPro');
+@include font-face(DINWebPro-Light, '../fonts/DINWebPro-Light');
+@include font-face(DINWebPro-Bold, '../fonts/DINWebPro-Bold');
+@include font-face(DINWebPro-Ita, '../fonts/DINWebPro-Ita');
 
 $type-scale: (
     -1: 0.75rem,  // small text
     0: 1rem,      // body text
-    1: 1.333rem,  // large text
-    2: 1.777rem   // main heading
+    1: 1.25rem,  // large text
+    2: 1.777rem,  // main heading
+    3: 2.369rem,
+    4: 3.157rem
   );
 
   $base-font-size: 1rem;
   $base-line-height: $base-font-size * 1.25;
   
+  $base-heading-margin: $base-font-size * 1.25;
+
   $line-heights: (
     -1: $base-line-height,
     0: $base-line-height,
-    1: $base-line-height * 2,
-    2: $base-line-height * 2
+    1: $base-line-height * 1.5,
+    2: $base-line-height * 2,
+    3: $base-line-height * 2.5,
+    4: $base-line-height * 3
   );
 
-  // The main heading
-h1 { @include type-setting(2); }
+// The main heading
+h1 { 
+  font-family: 'DINWebPro-Bold', sans-serif;
+  @include type-setting(4);
+  margin-bottom: $base-heading-margin;
+}
 
 // The smaller top heading
-h2 { @include type-setting(1); }
+// h2 { @include type-setting(1); }
 
-.p { @include type-setting(0); }
+p { 
+  font-family: 'DINWebPro-Light', sans-serif;  
+  @include type-setting(1);
+ }
 
