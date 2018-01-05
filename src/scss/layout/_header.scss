@@ -1,8 +1,9 @@
 header {
   display: grid;
-  grid-template-columns: 1.3fr 1fr;
+  grid-template-columns: 1.4fr 1fr;
   grid-gap: $grid-gutter;
-  
+  padding: $header-padding;
+
   &::before {
     content: '';
     width: 95%;
@@ -37,7 +38,6 @@ header {
   .border-gradient {
     position: relative;    
     width: 604px;
-    height: 495px;
     @include flex-box(column, center);
   }
 
