@@ -2,19 +2,43 @@
   @include flex-box(row, space-between, center);
 }
 
+.slider-row-inner {
+  transition: $duration transform;
+  margin: ($tileHeight / 2) 0;
+  padding-bottom: 10px; // Account for OS X scroll bar
+
+  &:hover {
+    transform: translate3d($moveLeft, 0, 0);
+
+    .tile-video {
+      opacity: 0.3;
+
+      &:hover {
+        transform: scale($growFactor);
+        opacity: 1;
+      }
+    }
+
+  }
+}
+
 .tile-video {
+  float: left;
+  // margin: 0 10px;
   position: relative;
   width: 370px;
   overflow: hidden;
   cursor: pointer;
+  transition: $duration all;
+  transform-origin: center left;
 
   &:hover {
-    .tile-content {
-      bottom: 0;
+    ~ .tile-video {
+      transform: translate3d($moveRight, 0, 0);
     }
 
-    img {
-      transform: scale(1.1)
+    .tile-content {
+      bottom: 0;
     }
 
     .tile-gradient {
@@ -26,14 +50,14 @@
   img {
     position: relative;
     z-index: -2;
-    transition: all 0.2s ease-in-out;
+    object-fit: cover;
   }
 
   .tile-content {
     position: absolute;
-    bottom: -30px;
+    bottom: -50px;
     padding: $tile-footer-padding;
-    transition: all 0.2s ease-in-out;
+    transition: $duration all;
   }
 
   h3 {
@@ -44,7 +68,7 @@
 
   .tile-footer{
     display: grid;
-    grid-template-columns: 3fr 1fr 1fr 1fr;
+    grid-template-columns: 2.5fr 1fr 1fr 1fr;
 
     span {
       
