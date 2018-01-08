@@ -38,6 +38,7 @@ h1 {
 h2 { 
   font-family: 'DINWebPro-Bold', sans-serif;  
   @include type-setting(3); 
+  
 }
 h3 { @include type-setting(1); }
 

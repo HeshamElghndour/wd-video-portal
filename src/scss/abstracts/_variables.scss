@@ -20,6 +20,7 @@ $wd-colors: (
 // gaps
 $grid-gutter: 15px;
 $nav-padding: 20px 0;
+$slider-gutter: 0 10px;
 $tile-footer-padding: 0 16px 13px 16px; 
 $icon-padding: 0 8px;
 $header-padding: 6.25rem 0;
@@ -27,8 +28,8 @@ $header-padding: 6.25rem 0;
 ///////////////////////////////////////////
 
 // slider animation
-$duration: 450ms;
-$tileWidth: 370px;
+$duration: 400ms;
+$tileWidth: 336px;
 $tileHeight: ($tileWidth / (16/9));
 $iconSize: 50px;
 $growFactor: 1.3; // 1.5 times the original size

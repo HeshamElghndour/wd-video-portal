@@ -19,7 +19,7 @@ gulp.task('serve', ['sass'], function() {
     });
 
     gulp.watch(['src/scss/**/*.scss'], ['sass']);
-    gulp.watch("src/*.html").on('change', browserSync.reload);
+    gulp.watch("src/video-page.html").on('change', browserSync.reload);
 });
 
 // Default Task

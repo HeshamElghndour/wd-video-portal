@@ -1,10 +1,11 @@
 .slider-header {
   @include flex-box(row, space-between, center);
+  margin-bottom: -40px;
 }
 
 .slider-row-inner {
   transition: $duration transform;
-  margin: ($tileHeight / 2) 0;
+  margin: ($tileHeight / 4) 0;
   padding-bottom: 10px; // Account for OS X scroll bar
 
   &:hover {
@@ -24,9 +25,10 @@
 
 .tile-video {
   float: left;
-  // margin: 0 10px;
+  margin: $slider-gutter;
   position: relative;
-  width: 370px;
+  width: 336px;
+  height: 188px;
   overflow: hidden;
   cursor: pointer;
   transition: $duration all;
@@ -55,7 +57,8 @@
 
   .tile-content {
     position: absolute;
-    bottom: -50px;
+    left: 0;
+    bottom: -30px;
     padding: $tile-footer-padding;
     transition: $duration all;
   }
