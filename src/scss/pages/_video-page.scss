@@ -1,0 +1,10 @@
+.vidoe-wrapper {
+  margin: 0 0 40px 0;
+}
+.video-info {
+  @extend .tile-footer;
+  font-family: 'DINWebPro-Light' ;
+  .date {
+    font-style: italic;
+  }
+}
