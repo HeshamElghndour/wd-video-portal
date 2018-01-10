@@ -8,3 +8,51 @@
     font-style: italic;
   }
 }
+.video-data {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: $grid-gutter;
+  position: relative;
+
+  .video-description::after {
+    content: '';
+    content: '';
+    position: absolute;
+    top: -1%;
+    left: -7%;
+    width: 100%;
+    height: 100%;
+    background: url(../images/gradient-text-bg.svg) no-repeat;
+    z-index: -1;
+  }
+
+  .video-description p {
+    padding: 30px 10px;
+  }
+
+  .video-resources {
+    border-left: 1px solid wd-color('white');
+
+    & > div {
+      padding: 15px 0 15px 25px;
+    }
+  }
+  .speaker-info {
+    position: relative;
+    &::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      bottom: -25px;
+      left: -25px;
+      border-bottom: 1px solid wd-color('white');
+    }
+
+    img {
+      border-radius: 50%;
+      float: left;
+      margin: 0 14px 0 0;
+    }
+  }
+}
