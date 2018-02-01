@@ -37,8 +37,14 @@
       padding: 15px 0 15px 25px;
     }
   }
-  .speaker-info {
+  .speakers-list {
+    h2 {
+      grid-column: 1/span 2;
+    }
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     position: relative;
+    grid-gap: 1.5rem;
     &::after {
       content: '';
       position: absolute;
