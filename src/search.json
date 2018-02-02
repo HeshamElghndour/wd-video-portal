@@ -1,0 +1,672 @@
+{
+ "kind": "youtube#searchListResponse",
+ "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/HH4jDX3lui4ihcrVI6rDHY8bWMk\"",
+ "nextPageToken": "CBQQAA",
+ "regionCode": "DE",
+ "pageInfo": {
+  "totalResults": 75,
+  "resultsPerPage": 20
+ },
+ "items": [
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/-vK1A__8ZI2XrzPa8TKkRLWkDwo\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "sw7xORPK3fw"
+   },
+   "snippet": {
+    "publishedAt": "2018-01-31T08:56:47.000Z",
+    "channelId": "UCgrIECcCJsqtXnomjlE7ZJQ",
+    "title": "Interview with Markus Braun, CEO of Wirecard, @Paris Fintech Forum – moderated by Laurent Nizri",
+    "description": "The Paris Fintech Forum is a one-of-a-kind digital finance and FinTech event in Europe. More than 130 exhibitors are presenting their innovations. Wirecard's CEO Markus Braun spoke about...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/sw7xORPK3fw/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/sw7xORPK3fw/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/sw7xORPK3fw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Wirecard",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/JionJrMVhk_GCF0G8NnQu10I1ng\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "w3Fep0609-E"
+   },
+   "snippet": {
+    "publishedAt": "2017-12-08T15:04:33.000Z",
+    "channelId": "UCgrIECcCJsqtXnomjlE7ZJQ",
+    "title": "The Connected Store (IoT) by Wirecard: The future of shopping",
+    "description": "The retail industry has faced many significant changes recently. Wirecard as a technology company has developed a new solution using advanced technology: the Connected Store. In this video,...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/w3Fep0609-E/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/w3Fep0609-E/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/w3Fep0609-E/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Wirecard",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/Sz0KKxIKdbZE9moXft6Dr1Odlyw\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "7q-b3nKm4Gc"
+   },
+   "snippet": {
+    "publishedAt": "2017-11-30T08:38:21.000Z",
+    "channelId": "UCgrIECcCJsqtXnomjlE7ZJQ",
+    "title": "WTM London 2017: Innovative payment solutions simplify travel business",
+    "description": "At the WTM in London, one of the world's largest events for the travel industry, Wirecard presented simplified payment processes for online booking and other online travel services. Managing...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/7q-b3nKm4Gc/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/7q-b3nKm4Gc/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/7q-b3nKm4Gc/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Wirecard",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/RORbDvFPepMhj23UiNkiK3OJ6IY\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "3BVrbI_DUG4"
+   },
+   "snippet": {
+    "publishedAt": "2017-11-24T15:05:10.000Z",
+    "channelId": "UCgrIECcCJsqtXnomjlE7ZJQ",
+    "title": "Lionel Jouve, Printemps - How Printemps has benefited from Chinese payment methods",
+    "description": "Innovation Day @ Wirecard: How Printemps has benefited from Chinese payment methods Digitalisation of payment was the central topic at the Innovation Day @ Wirecard in October 2017, exemplified...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/3BVrbI_DUG4/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/3BVrbI_DUG4/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/3BVrbI_DUG4/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Wirecard",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/lssWIU5jZwtm3jEFmHT0mWK1UTw\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "wot6J7v59dE"
+   },
+   "snippet": {
+    "publishedAt": "2017-11-16T09:15:57.000Z",
+    "channelId": "UCgrIECcCJsqtXnomjlE7ZJQ",
+    "title": "DLD Berlin 2017",
+    "description": "At this year's DLD conference in Berlin, Wirecard presented a special highlight: the 'bottoms-up showcase' combining different technologies into a unique innovative experience. Joern...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/wot6J7v59dE/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/wot6J7v59dE/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/wot6J7v59dE/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Wirecard",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/xUR5BamOaQ6pnHrdHAho6J9Yqd8\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "N_0orwSCsTI"
+   },
+   "snippet": {
+    "publishedAt": "2017-11-10T11:30:37.000Z",
+    "channelId": "UCgrIECcCJsqtXnomjlE7ZJQ",
+    "title": "Wirecard Innovation Day 2017",
+    "description": "On 12 October 2017, the first Wirecard Innovation Day took place at our headquarters in Aschheim. Panels and workshops provided the opportunity for us as well as our customers and partners...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/N_0orwSCsTI/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/N_0orwSCsTI/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/N_0orwSCsTI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Wirecard",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/3OMQ2XyuTN4v9nLaQvWkoHjZq14\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "XKrubkv0WGA"
+   },
+   "snippet": {
+    "publishedAt": "2017-11-07T10:36:28.000Z",
+    "channelId": "UCgrIECcCJsqtXnomjlE7ZJQ",
+    "title": "Wirecard at WTM 2017 - Impressions",
+    "description": "Come and visit our stand TT345, with the focus on Chinese Payment Gateway. As one of the largest events of the travel and tourism industry, it sees 5000 exhibitors and more than 51000 visitors...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/XKrubkv0WGA/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/XKrubkv0WGA/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/XKrubkv0WGA/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Wirecard",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/GMIvnIKXMk1_wqexTVC01PdmO0Y\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "Qb2bDUVJrjk"
+   },
+   "snippet": {
+    "publishedAt": "2017-10-26T09:14:11.000Z",
+    "channelId": "UCgrIECcCJsqtXnomjlE7ZJQ",
+    "title": "Alipay integration at Munich Airport - positive report by Matthias Vollmer",
+    "description": "One of the most popular payment methods in China is the Alipay app with more than 400 million users and about 100 million transactions per day. Chinese visitors have been able to pay with the...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Qb2bDUVJrjk/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Qb2bDUVJrjk/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Qb2bDUVJrjk/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Wirecard",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/2rj68zrkbXpnsf02jSjF9L9TbL8\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "78FFhzn1-o4"
+   },
+   "snippet": {
+    "publishedAt": "2017-10-25T06:46:01.000Z",
+    "channelId": "UCgrIECcCJsqtXnomjlE7ZJQ",
+    "title": "PAYUCA – start-up and Wirecard partner",
+    "description": "We interviewed Dominik Wegmayer, founder of the start-up PAYUCA, at the 2017 E-Mobility Play Days at the Red Bull Ring in Spielberg (Austria). The start-up offers a solution for the difficult...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/78FFhzn1-o4/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/78FFhzn1-o4/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/78FFhzn1-o4/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Wirecard",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/WEU9neGgDhOzSyMTGt8FRi-tjnc\"",
+   "id": {
+    "kind": "youtube#playlist",
+    "playlistId": "PLClRrX50liFzBU7khukC2gM7LXg08ppqW"
+   },
+   "snippet": {
+    "publishedAt": "2017-10-24T12:50:53.000Z",
+    "channelId": "UCgrIECcCJsqtXnomjlE7ZJQ",
+    "title": "Wirecard Innovation Day 2017",
+    "description": "The wirecard Innovation Day 2017 took place in October......",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/N_0orwSCsTI/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/N_0orwSCsTI/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/N_0orwSCsTI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Wirecard",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/MhLPFf_-DAGGZuKkDNxWCdZ3h7c\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "uGTcRKydqMQ"
+   },
+   "snippet": {
+    "publishedAt": "2017-10-17T07:31:05.000Z",
+    "channelId": "UCgrIECcCJsqtXnomjlE7ZJQ",
+    "title": "E-Mobility Play Days 2017",
+    "description": "The E-Mobility Play Days, which took place for the first time at the Red Bull Ring in Spielberg (Austria) on 29 and 30 September, enabled the visitors to look into the future of e-mobility....",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/uGTcRKydqMQ/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/uGTcRKydqMQ/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/uGTcRKydqMQ/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Wirecard",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/MWdLL62Ni3qo03wLT1hoCc7eLMQ\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "a09KiLtSMms"
+   },
+   "snippet": {
+    "publishedAt": "2017-10-09T08:17:52.000Z",
+    "channelId": "UCgrIECcCJsqtXnomjlE7ZJQ",
+    "title": "Future Talk - The New Era Of Commerce",
+    "description": "Listen to Dr. Markus Braun, CEO at Wirecard, discussing with Terry von Bibra, General Manager Europe at Alibaba and Marcel Haraszti, Manager at Management Board at REWE International, the new...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/a09KiLtSMms/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/a09KiLtSMms/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/a09KiLtSMms/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Wirecard",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/Ur_kJBZNtSVsTDmH869KmXrR000\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "X88FY7Fhz3g"
+   },
+   "snippet": {
+    "publishedAt": "2017-10-02T15:42:22.000Z",
+    "channelId": "UCgrIECcCJsqtXnomjlE7ZJQ",
+    "title": "The perfect mix for success at dmexco 2017",
+    "description": "What is it like when Wirecard attends a trade show? Take a look behind the scenes at dmexco 2017 in Cologne. We were sharing this great experience with our partners anyMOTION, billwerk, RatePAY...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/X88FY7Fhz3g/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/X88FY7Fhz3g/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/X88FY7Fhz3g/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Wirecard",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/2Ok0ARO6VrBvc4LkmLlJYR9f4S4\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "tBQllGLsaa0"
+   },
+   "snippet": {
+    "publishedAt": "2017-09-22T09:28:31.000Z",
+    "channelId": "UCgrIECcCJsqtXnomjlE7ZJQ",
+    "title": "Payment solutions for the gaming industry",
+    "description": "Especially for the gaming industry, Wirecard offers payment solutions that are safe, fast and globally available. With additional services such as game specific hotlines we are the perfect...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/tBQllGLsaa0/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/tBQllGLsaa0/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/tBQllGLsaa0/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Wirecard",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/5wdV-sXbAuK1F3aD-8iAO3TWiJw\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "QuK7mgIwLo8"
+   },
+   "snippet": {
+    "publishedAt": "2017-09-12T09:18:33.000Z",
+    "channelId": "UCgrIECcCJsqtXnomjlE7ZJQ",
+    "title": "Mission “Pay with your Smartphone”: Experiencing the World of Mobile Payment with boon.",
+    "description": "Mobile payment via smartphone: it's quick, easy, secure – and fun! Timo and Mario, two business editors and money experts – well-known from their video blog “Mission Money” – give...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/QuK7mgIwLo8/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/QuK7mgIwLo8/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/QuK7mgIwLo8/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Wirecard",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/sIAjmayP72EG2q8XWikch93mvJ0\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "FR-ZwNR0hxw"
+   },
+   "snippet": {
+    "publishedAt": "2017-04-03T13:28:19.000Z",
+    "channelId": "UCgrIECcCJsqtXnomjlE7ZJQ",
+    "title": "Omnichannel experience at its best!",
+    "description": "Listen to Vanda Kospic, Head of Sales, Sales Consumer Goods at Wirecard, giving a talk on how to improve the omnichannel experience for merchants and consumers with Wirecard at Internet World 2017.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/FR-ZwNR0hxw/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/FR-ZwNR0hxw/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/FR-ZwNR0hxw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Wirecard",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/-xhXkNvstiTpfCHh8DO2fh_V4q4\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "DUfsFyFknus"
+   },
+   "snippet": {
+    "publishedAt": "2017-04-03T10:04:39.000Z",
+    "channelId": "UCgrIECcCJsqtXnomjlE7ZJQ",
+    "title": "Omnichannel solutions | Internet World 2017",
+    "description": "Listen to Vanda Kospic, Head of Sales, Sales Consumer Goods at Wirecard, being interviewed on omnichannel solutions at Internet World 2017 in Munich.",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/DUfsFyFknus/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/DUfsFyFknus/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/DUfsFyFknus/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Wirecard",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/-D7LYQQck7FICrSKi9icqF_0R9A\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "IZJNIHqohQ4"
+   },
+   "snippet": {
+    "publishedAt": "2016-12-21T09:14:55.000Z",
+    "channelId": "UCgrIECcCJsqtXnomjlE7ZJQ",
+    "title": "Alipay payment solution at Munich airport",
+    "description": "Alipay is China's leading mobile payment app and with Wirecard´s solution now also available for the numerous Chinese tourists at Munich airport. Find out what the advantages of the Wirecard...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/IZJNIHqohQ4/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/IZJNIHqohQ4/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/IZJNIHqohQ4/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Wirecard",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/CsE8vFlK66Cz6K3QQrwvyQ2mUB4\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "Im-j9HTD06Q"
+   },
+   "snippet": {
+    "publishedAt": "2016-12-07T19:29:41.000Z",
+    "channelId": "UCgrIECcCJsqtXnomjlE7ZJQ",
+    "title": "Omnichannel with Wirecard´s payment solutions at all WMF Stores",
+    "description": "The future of retail is already here. Wirecard and WMF are teaming up to merge e-commerce with high-street retail henceforth. WMF has set up iPads with a relevant app in their stores which...",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Im-j9HTD06Q/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Im-j9HTD06Q/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Im-j9HTD06Q/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Wirecard",
+    "liveBroadcastContent": "none"
+   }
+  },
+  {
+   "kind": "youtube#searchResult",
+   "etag": "\"Wu2llbfqCdxIVjGbVPm2DslKPCA/X8KKrMRreo5aF0PfaOpg3uqxOw8\"",
+   "id": {
+    "kind": "youtube#video",
+    "videoId": "GvxdHdBlEKU"
+   },
+   "snippet": {
+    "publishedAt": "2016-12-02T12:43:49.000Z",
+    "channelId": "UCgrIECcCJsqtXnomjlE7ZJQ",
+    "title": "Alipay-Akzeptanz am Flughafen München – so funktioniert´s",
+    "description": "Schauen Sie sich den Vortrag von Markus Eichinger, Vice President Value Added Services, Wirecard, André Dlugos, CIO eurotrade Flughafen und Dennis Krone Key Account Manager Poresy GmbH & Co....",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/GvxdHdBlEKU/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/GvxdHdBlEKU/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/GvxdHdBlEKU/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     }
+    },
+    "channelTitle": "Wirecard",
+    "liveBroadcastContent": "none"
+   }
+  }
+ ]
+}
