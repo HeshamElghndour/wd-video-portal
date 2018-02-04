@@ -1,136 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/main.css">
+  <meta charset="utf-8">
+  <title>WdVideoPortalAngular</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <nav class="container">
-    <a href="" class="wd-logo"><img src="images/wd-logo-light.svg" alt=""></a>
-    <ul class="nav-list-item">
-      <li class="input-search">
-        <a href=""><img src="icons/icon-search.svg" alt=""></a>
-        <input class="hide" type="text">
-      </li>
-      <li><button class="btn btn-transparent btn-logo">login</button></li>
-    </ul>
-  </nav>
-
-  <header class="container">
-
-    <div class="video-teaser">
-      <div class="border-gradient">
-
-        <svg width="604px" height="361px" viewBox="0 0 604 361" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-          <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
-          <desc>Created with Sketch.</desc>
-          <defs>
-              <linearGradient x1="1.84347499%" y1="2.4727551%" x2="98.6920557%" y2="33.4871957%" id="linearGradient-1">
-                  <stop stop-color="#3295D2" offset="20%"></stop>
-                  <stop stop-color="#FF2014" offset="70%"></stop>
-              </linearGradient>
-          </defs>
-          <g id="Mockup" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-              <g id="Home_screen-Copy-15" transform="translate(-136.000000, -181.000000)" stroke="url(#linearGradient-1)" stroke-width="29">
-                  <g id="Header_gradient-Copy" transform="translate(136.000000, 181.000000)">
-                      <rect id="Rectangle-6-Copy-2" x="14.5" y="14.5" width="575" height="332"></rect>
-                  </g>
-              </g>
-          </g>
-        </svg>
-
-        <video class="video-source" width="400" autoplay loop muted>
-            <source src="videos/E-Mobility.mp4" type="video/mp4">
-            <source src="videos/E-Mobility.mp4" type="video/ogg">
-            Your browser does not support the video tag.
-        </video>
-      </div>
-    </div>
-
-    <div class="video-text">
-      <h1>E-Mobility Play Days 2017</h1>
-      <p>The E-Mobility Play Days, which took place for the first time at the Red Bull Ring in Spielberg (Austria) on 29 and 30 September, enabled the visitors to look into the future of e-mobility.</p>
-    </div>
-
-  </header>
-
-  <section class="slider-row ">
-
-    <div class="slider-header container">
-      <h2>Latest videos</h2>
-      <!-- <select name="" id="">
-        <option value="newest-video">Newest videos</option>
-        <option value="most-viewd">Most viewd</option>
-        <option value="most-liked">Most liked</option>
-      </select> -->
-    </div>
-
-    <div class="swiper-container">
-      <div class="swiper-wrapper slider-row-inner">
-
-        <div class="tile-video">
-          <img src="images/video-image.jpg" alt="">
-          <div class="tile-content">
-            <h3 class="tile-title">The perfect mix for success at dmexco 2017</h3>
-            <div class="tile-footer">
-              <span class="date">Oct 2, 2017</span>
-              <span class="likes"><span class="num">7</span><i class="fa fa-heart-o"></i></span>
-              <span class="views"><span class="num">194</span><i class="fa fa-eye"></i></span>
-              <span class="sharing"><i class="fa fa-share"></i></span>
-            </div>
-          </div>
-          <div class="tile-gradient"></div>
-        </div>
-
-        <div class="tile-video">
-            <img src="images/video-image.jpg" alt="">
-            <div class="tile-content">
-              <h3 class="tile-title">The perfect mix for success at dmexco 2017</h3>
-              <div class="tile-footer">
-                <span class="date">Oct 2, 2017</span>
-                <span class="likes"><span class="num">7</span><i class="fa fa-heart-o"></i></span>
-                <span class="views"><span class="num">194</span><i class="fa fa-eye"></i></span>
-                <span class="sharing"><i class="fa fa-share"></i></span>
-              </div>
-            </div>
-            <div class="tile-gradient"></div>
-          </div>
-  
-    
-            <div class="tile-video">
-                <img src="images/video-image.jpg" alt="">
-                <div class="tile-content">
-                  <h3 class="tile-title">The perfect mix for success at dmexco 2017</h3>
-                  <div class="tile-footer">
-                    <span class="date">Oct 2, 2017</span>
-                    <span class="likes"><span class="num">7</span><i class="fa fa-heart-o"></i></span>
-                    <span class="views"><span class="num">194</span><i class="fa fa-eye"></i></span>
-                    <span class="sharing"><i class="fa fa-share"></i></span>
-                  </div>
-                </div>
-                <div class="tile-gradient"></div>
-              </div>
-
-      </div>
-    </div>
-
-  </section>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.js"></script>
-  <script>
-    var mySwiper = new Swiper ('.swiper-container', {
-      // Optional parameters
-      direction: 'horizontal',
-      loop: true,
-      slidesPerView: 4,
-      // And if we need scrollbar
-      scrollbar: {
-        el: '.swiper-scrollbar',
-      },
-    })
-    </script>
+  <app-root></app-root>
 </body>
 </html>

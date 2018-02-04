@@ -1,8 +1,8 @@
 // import fonts
-@include font-face(DINWebPro, '../fonts/DINWebPro');
-@include font-face(DINWebPro-Light, '../fonts/DINWebPro-Light');
-@include font-face(DINWebPro-Bold, '../fonts/DINWebPro-Bold');
-@include font-face(DINWebPro-Ita, '../fonts/DINWebPro-Ita');
+@include font-face(DINWebPro, '/assets/fonts/DINWebPro');
+@include font-face(DINWebPro-Light, '/assets/fonts/DINWebPro-Light');
+@include font-face(DINWebPro-Bold, '/assets/fonts/DINWebPro-Bold');
+@include font-face(DINWebPro-Ita, '/assets/fonts/DINWebPro-Ita');
 
 $type-scale: (
     -1: 0.75rem,  // small text
