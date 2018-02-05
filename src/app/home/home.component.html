@@ -1,8 +1,8 @@
 <nav class="container">
-  <a href="" class="wd-logo"><img src="images/wd-logo-light.svg" alt=""></a>
+  <a href="" class="wd-logo"><img src="/assets/images/wd-logo-light.svg" alt=""></a>
   <ul class="nav-list-item">
     <li class="input-search">
-      <a href=""><img src="icons/icon-search.svg" alt=""></a>
+      <a href=""><img src="/assets/icons/icon-search.svg" alt=""></a>
       <input class="hide" type="text">
     </li>
     <li><button class="btn btn-transparent btn-logo">login</button></li>
@@ -33,8 +33,8 @@
       </svg>
 
       <video class="video-source" width="400" autoplay loop muted>
-          <source src="assets/videos/E-Mobility.mp4" type="video/mp4">
-          <source src="assets/videos/E-Mobility.mp4" type="video/ogg">
+          <source src="/assets/videos/E-Mobility.mp4" type="video/mp4">
+          <source src="/assets/videos/E-Mobility.mp4" type="video/ogg">
           Your browser does not support the video tag.
       </video>
     </div>
@@ -61,24 +61,11 @@
   <div class="swiper-container">
     <div class="swiper-wrapper slider-row-inner">
 
-      <div class="tile-video">
-        <img src="/assets/images/video-image.jpg" alt="">
-        <div class="tile-content">
-          <h3 class="tile-title">The perfect mix for success at dmexco 2017</h3>
-          <div class="tile-footer">
-            <span class="date">Oct 2, 2017</span>
-            <span class="likes"><span class="num">7</span><i class="fa fa-heart-o"></i></span>
-            <span class="views"><span class="num">194</span><i class="fa fa-eye"></i></span>
-            <span class="sharing"><i class="fa fa-share"></i></span>
-          </div>
-        </div>
-        <div class="tile-gradient"></div>
-      </div>
-
-      <div class="tile-video">
-          <img src="images/video-image.jpg" alt="">
+      <div *ngFor="let video of videos" class="tile-video">
+        <a href="">
+          <img src={{video.snippet.thumbnails.medium.url}} alt="">
           <div class="tile-content">
-            <h3 class="tile-title">The perfect mix for success at dmexco 2017</h3>
+            <h3 class="tile-title">{{video.snippet.title}}</h3>
             <div class="tile-footer">
               <span class="date">Oct 2, 2017</span>
               <span class="likes"><span class="num">7</span><i class="fa fa-heart-o"></i></span>
@@ -87,22 +74,8 @@
             </div>
           </div>
           <div class="tile-gradient"></div>
+        </a>
         </div>
-
-  
-          <div class="tile-video">
-              <img src="images/video-image.jpg" alt="">
-              <div class="tile-content">
-                <h3 class="tile-title">The perfect mix for success at dmexco 2017</h3>
-                <div class="tile-footer">
-                  <span class="date">Oct 2, 2017</span>
-                  <span class="likes"><span class="num">7</span><i class="fa fa-heart-o"></i></span>
-                  <span class="views"><span class="num">194</span><i class="fa fa-eye"></i></span>
-                  <span class="sharing"><i class="fa fa-share"></i></span>
-                </div>
-              </div>
-              <div class="tile-gradient"></div>
-            </div>
 
     </div>
   </div>

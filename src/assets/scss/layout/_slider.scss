@@ -42,11 +42,14 @@
     .tile-content {
       bottom: 0;
     }
-
     .tile-gradient {
       opacity: 1;
     }
+    
+  }
 
+  a {
+    color: wd-color('white');
   }
   
   img {
