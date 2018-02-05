@@ -61,8 +61,8 @@
   <div class="swiper-container">
     <div class="swiper-wrapper slider-row-inner">
 
-      <a *ngFor="let video of videos" [routerLink]="['/videos', videoId]" class="tile-video">
-          <img src={{video.snippet.thumbnails.medium.url}} alt="">
+      <a *ngFor="let video of videos" [routerLink]="['/videos', video.id.videoId]" class="tile-video">
+        <img src={{video.snippet.thumbnails.medium.url}} alt="">
           <div class="tile-content">
             <h3 class="tile-title">{{video.snippet.title}}</h3>
             <div class="tile-footer">

@@ -17,7 +17,7 @@ export class VideosComponent implements OnInit {
     // observable way
     this.route.paramMap.subscribe(params => {
       console.log(params.get('videoId'));
-      this.videoId = params.get('username');
+      this.videoId = params.get('videoId');
     });
   }
 

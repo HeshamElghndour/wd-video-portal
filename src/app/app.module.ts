@@ -18,8 +18,9 @@ import {RouterModule} from '@angular/router';
     BrowserModule,
     HttpModule,
     RouterModule.forRoot([
-      {path: 'videos', component: VideosComponent},
-      {path: '', component: HomeComponent}
+      {path: '', component: HomeComponent},
+      // {path: 'videos', component: VideosComponent},
+      {path: 'videos/:videoId', component: VideosComponent}
     ])
   ],
   providers: [],
