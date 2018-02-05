@@ -29,6 +29,7 @@
   position: relative;
   width: 336px;
   height: 188px;
+  color: wd-color('white');
   overflow: hidden;
   cursor: pointer;
   transition: $duration all;
@@ -46,10 +47,6 @@
       opacity: 1;
     }
     
-  }
-
-  a {
-    color: wd-color('white');
   }
   
   img {

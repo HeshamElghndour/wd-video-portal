@@ -61,8 +61,7 @@
   <div class="swiper-container">
     <div class="swiper-wrapper slider-row-inner">
 
-      <div *ngFor="let video of videos" class="tile-video">
-        <a href="">
+      <a *ngFor="let video of videos" [routerLink]="['/videos', videoId]" class="tile-video">
           <img src={{video.snippet.thumbnails.medium.url}} alt="">
           <div class="tile-content">
             <h3 class="tile-title">{{video.snippet.title}}</h3>
@@ -75,7 +74,6 @@
           </div>
           <div class="tile-gradient"></div>
         </a>
-        </div>
 
     </div>
   </div>
