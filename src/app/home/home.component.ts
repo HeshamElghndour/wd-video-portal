@@ -14,7 +14,7 @@ export class HomeComponent implements OnInit {
     http.get('https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UCgrIECcCJsqtXnomjlE7ZJQ&key=AIzaSyAcR7b_Lk2BbAy4wC9bInbkBpAgtH5kz-M&maxResults=50')
       .subscribe(response => {
         this.videos = response.json().items;
-        // console.log(this.videos);
+        console.log(this.videos);
       })
   }
   

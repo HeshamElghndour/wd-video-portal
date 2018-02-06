@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { ActivatedRoute } from '@angular/router';
+import { Http } from '@angular/http';
 
 
 @Component({
@@ -10,15 +12,29 @@ import { ActivatedRoute } from '@angular/router';
 export class VideosComponent implements OnInit {
 
   videoId: string;
+  videoDetails: any[];
   
-  constructor(private route: ActivatedRoute) { }
+  
+  getVideoId(){
+    this.route.paramMap.subscribe(params => {
+      this.videoId = params.get('videoId');
+    })
+  }
+  getVideoDetails(){
+    console.log(this.videoDetails);
+    alert()
+  }
 
   ngOnInit() {
-    // observable way
-    this.route.paramMap.subscribe(params => {
-      console.log(params.get('videoId'));
-      this.videoId = params.get('videoId');
-    });
+  }
+  constructor(private route: ActivatedRoute,  http: Http) { 
+    this.getVideoId();
+    let url = `https://www.googleapis.com/youtube/v3/videos?part=snippet&id=${this.videoId}&key=AIzaSyAcR7b_Lk2BbAy4wC9bInbkBpAgtH5kz-M`
+    http.get(url)
+    .subscribe(response => {
+      this.videoDetails = response.json().items[0];
+    }),
+    () => {this.getVideoDetails()}
   }
 
 }
